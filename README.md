@@ -24,7 +24,7 @@ cd video-chat-videosdk-react # Navigate into the project directory
 - Navigate to the "API Keys".
 - Generate a new temporary token. Copy this token; you'll need it in the next step.
 
-### 3. Configure the Environment File:**
+### 3. Configure the Environment File:
 
 Within the cloned repository, locate the .env file. Replace YOUR_TEMPORARY_TOKEN with the generated token from your account:
 
@@ -32,7 +32,7 @@ Within the cloned repository, locate the .env file. Replace YOUR_TEMPORARY_TOKEN
 REACT_APP_VIDEOSDK_TOKEN="YOUR_TEMPORARY_TOKEN"
 ```
 
-### 4. Install Dependencies:**
+### 4. Install Dependencies:
 
 Install the project's dependencies using npm:
 
@@ -40,7 +40,7 @@ Install the project's dependencies using npm:
 npm install
 ```
 
-### 5. Launch the App:**
+### 5. Launch the App:
 
 Start the application using npm:
 
