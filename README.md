@@ -1,13 +1,17 @@
-# VideoSDK for ReactJS
+#  VideoSDK for ReactJS
+
 At Video SDK, we’re building tools to help companies create world-class collaborative products with capabilities of live audio/videos, compose cloud recordings/TRMP/HLS, and interaction APIs.
 
-## Prerequisites
-Before setting up the project, ensure you have the following:
-- **React** v16 or later
-- **Node** v10 or later
-- A **VideoSDK** account
+## 📋 Prerequisites
 
-## Running the Sample App
+Before setting up the project, ensure you have the following:
+
+- ⚛️ React v16 or later
+- 🟢 Node v10 or later
+- 🔑 A VideoSDK account
+
+## 🚀 Running the Sample App
+
 Follow these steps to set up and run the app on your device:
 
 ### Step 1: Clone the Repo
