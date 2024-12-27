@@ -23,7 +23,7 @@ cd video-chat-videosdk-react # Navigate into the project directory
 
 ### Step 2: Generate a Token:
 
-- Go to the VideoSDK dashboard: https://app.videosdk.live/signup.
+- Go to the VideoSDK dashboard: [VideoSDK Dashboard](https://app.videosdk.live/signup).
 - Sign up or log in to your account.
 - Navigate to the "API Keys".
 - Generate a new temporary token. Copy this token; you'll need it in the next step.
