@@ -51,3 +51,53 @@ This will compile the application and start a development server. Open your web 
 
 
 
+## ✨ Features
+
+- 🔊 **Live Audio/Video:** Engage in real-time communication with high-quality audio and video.
+- 📹 **Cloud Recordings:** Easily record your sessions for future reference.
+- 📡 **RTMP/HLS Streaming:** Stream your sessions live to a wide audience.
+- 🔄 **Token Management:** Secure and manage access to your video sessions with ease.
+
+
+
+## 📚 Usage
+
+Here are some of the key VideoSDK methods used in the project:
+
+### Joining a Meeting
+
+- `useMeeting`: This hook is used to manage and control meeting state and actions.
+  ```js
+  const { join } = useMeeting();
+
+### Controlling Audio/Video
+- `toggleMic`: Toggles the microphone on and off.
+- `toggleWebcam`: Toggles the webcam on and off.
+- `leave`: Leaves the meeting.
+
+  ```js
+  const { toggleMic, toggleWebcam, leave } = useMeeting();
+
+### Displaying Participants
+- `participants`: Provides access to the list of participants in the meeting
+  ```js
+  const { participants } = useMeeting();
+
+### Handling Participant Streams
+- useParticipant: This hook is used to manage individual participant's streams.
+  ```js
+  const { webcamStream, webcamOn } = useParticipant(participantId);
+
+## 📚 Documentation
+
+For more detailed documentation, visit the [VideoSDK Documentation](https://docs.videosdk.live/).
+
+## 🙏 Acknowledgments
+
+- [VideoSDK](https://www.videosdk.live/)
+
+---
+
+Happy Coding! 🚀
+
+
